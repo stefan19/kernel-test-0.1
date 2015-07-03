@@ -1,0 +1,10 @@
+#ifndef KEYBOARD_H
+#define KEYBOARD_H
+
+void kb_enable(void);
+void keyboard_handler(void);
+char buffer[20];
+char str_getch(void);
+char get_last_char(void);
+
+#endif

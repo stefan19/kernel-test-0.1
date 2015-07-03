@@ -1,0 +1,6 @@
+#ifndef MEMSET_H
+#define MEMSET_H
+
+void memset(void *s, char c, int n);
+
+#endif
